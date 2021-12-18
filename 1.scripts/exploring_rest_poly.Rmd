@@ -1,0 +1,52 @@
+---
+title: "Exploring Restauration Polygons"
+author: "Camila Vargas"
+date: "12/17/2021"
+output: html_document
+---
+
+## Set up
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(googledrive)
+library(here)
+library(data.table)
+library(tidyverse)
+library(readxl)
+library(janitor)
+library(lubridate)
+library(sf)
+
+## Sets R not to use scientific notations
+options(scipen=999) 
+
+```
+
+
+## Read in shapefile
+```{r}
+rest_shp <- read_sf("6.raw_data/Palmyra_Restoration_Plots.shp")
+
+colnames(rest_shp)
+
+```
+
+## Plot data
+```{r}
+plot(rest_shp$geometry)
+```
+
+
+
+## Save as a data_object
+```{r}
+
+dir.create(paste0(getwd(),"/7.clean_data"))
+
+write_csv(shp_1, here::here("7.clean_data/2016_and_2019_soil_wood_samples_loc.csv"))
+
+```
+
+
