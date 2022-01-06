@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" packageId="edi.824.1" xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0/eml.xsd https://eml.ecoinformatics.org/eml-2.2.0/eml.xsd" system="edi">
+  <access authSystem="https://pasta.edirepository.org/authentication" order="allowFirst" scope="document">
+    <allow>
+      <principal>uid=palmyra_project,o=EDI,dc=edirepository,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <title>Locations of rainforest transformation plots on Palmyra Atoll</title>
+    <creator>
+      <individualName>
+        <givenName>Alex</givenName>
+        <surName>Wegmann</surName>
+      </individualName>
+      <organizationName>The Nature Conservancy</organizationName>
+      <electronicMailAddress>alex.wegmann@tnc.org</electronicMailAddress>
+    </creator>
+    <associatedParty>
+      <individualName>
+        <givenName>Camila</givenName>
+        <surName>Vargas Poulsen</surName>
+      </individualName>
+      <organizationName>PADL Data Manager, Univerity of California Santa Barbara</organizationName>
+      <electronicMailAddress>camilavargas@ucsb.edu</electronicMailAddress>
+      <role>associated party</role>
+    </associatedParty>
+    <pubDate>2022-01-06</pubDate>
+    <abstract>
+      <para>
+    Locations of rainforest transformation plots on Palmyra Atoll.
+    Delineation of areas where non-native Cocos nucifera will be removed
+    and replaced with native vegetation.
+  </para>
+      <para>
+    Polygons were defined in 2019. Boundaries delineated in ArcGIS
+    Desktop
+  </para>
+    </abstract>
+    <keywordSet>
+      <keyword>Palmyra Atoll</keyword>
+      <keyword>Forest dynamics</keyword>
+      <keyword>Restoration</keyword>
+      <keyword>Rainforest</keyword>
+      <keywordThesaurus>none</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>This information is released under the Creative Commons license - Attribution - CC BY (https://creativecommons.org/licenses/by/4.0/). The consumer of these data ("Data User" herein) is required to cite it appropriately in any publication that results from its use. The Data User should realize that these data may be actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication. The Data User is urged to contact the authors of these data if any questions about methodology or results occur. Where appropriate, the Data User is encouraged to consider collaboration or co-authorship with the authors. The Data User should realize that misinterpretation of data may occur if used out of context of the original study. While substantial efforts are made to ensure the accuracy of data and associated documentation, complete accuracy of data sets cannot be guaranteed. All data are made available "as is." The Data User should be aware, however, that data are updated periodically and it is the responsibility of the Data User to check for new versions of the data. The data authors and the repository where these data were obtained shall not be liable for damages resulting from any use or misinterpretation of the data. Thank you.
+</para>
+    </intellectualRights>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Palmyra Atoll</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-162.083</westBoundingCoordinate>
+          <eastBoundingCoordinate>-162.043</eastBoundingCoordinate>
+          <northBoundingCoordinate>5.88333</northBoundingCoordinate>
+          <southBoundingCoordinate>5.871</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2019</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2019</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <maintenance>
+      <description>completed</description>
+    </maintenance>
+    <contact>
+      <individualName>
+        <givenName>Alex</givenName>
+        <surName>Wegmann</surName>
+      </individualName>
+      <organizationName>The Nature Conservancy</organizationName>
+      <electronicMailAddress>alex.wegmann@tnc.org</electronicMailAddress>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>
+          <para>
+    Polygon boundaries delineated by Island Conservation using ArcGIS
+    Desktop. In these areas, non-native <emphasis>Cocos
+    nucifera</emphasis> will be removed and replaced with native
+    vegetation. Within the transformation polygons, the objective is to
+    remove all <emphasis>C. nucifera,</emphasis> and plant <emphasis>H.
+    foertherianum</emphasis> and <emphasis>P. grandis</emphasis> at a
+    2:1 ratio. However, since the survival rate of replanted
+    <emphasis>H. foertherianum</emphasis> is estimated at 46%, mature,
+    transformed forest communities are expected to have approximately
+    half of the existing <emphasis>C. nucifera</emphasis> replaced by
+    <emphasis>H. foertherianum</emphasis> and half replaced by
+    <emphasis>P. grandis</emphasis>. These forest communities will be
+    considered mature 15 years after they have been planted.
+  </para>
+          <para>About this Data Package
+            The zip file has all the necessary files for spatial analysis of this data. This means all shapefiles to identify the exact locations of the samples.
+            Additionally, the .csv file cointins the name of each plot and the name of the island where is located.
+          </para>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>No project title to report</title>
+      <personnel>
+        <individualName>
+          <givenName>Alex</givenName>
+          <surName>Wegmann</surName>
+        </individualName>
+        <organizationName>The Nature Conservancy</organizationName>
+        <electronicMailAddress>alex.wegmann@tnc.org</electronicMailAddress>
+        <role>Principal Investigator</role>
+      </personnel>
+      <funding>Wildlife Conservation Society Climate Adaptation Fund</funding>
+    </project>
+    <dataTable>
+      <entityName>Palmyra Atoll Restoration Plots (names and island)</entityName>
+      <entityDescription>Name of each plot and island each one is located</entityDescription>
+      <physical>
+        <objectName>palmyra_atoll_trasformation_plots_info.csv</objectName>
+        <size unit="bytes">1202</size>
+        <authentication method="MD5">ea01d08267528ff8318e6d1ab9514d5e</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>name</attributeName>
+          <attributeDefinition>Numerical identifier of each forest transformation plot</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Numerical identifier of each forest transformation plot</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>island</attributeName>
+          <attributeDefinition>The islet at Palmyra Atoll where the plot is located</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The islet at Palmyra Atoll where the plot is located</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>102</numberOfRecords>
+    </dataTable>
+    <otherEntity>
+      <entityName>Shapefiles with geospatil data</entityName>
+      <entityDescription>zip file with all necessary files to read in the restoration plots on Palmyra Atoll</entityDescription>
+      <physical>
+        <objectName>palmyra_atoll_transformation_plots_shapefiles.zip</objectName>
+        <size unit="bytes">100309</size>
+        <authentication method="MD5">8dd75d7fecd54863cfc39d293fc2a4be</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/zip</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+      </physical>
+      <entityType>unknown</entityType>
+    </otherEntity>
+  </dataset>
+</eml:eml>

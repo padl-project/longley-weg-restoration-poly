@@ -39,13 +39,24 @@ plot(rest_shp$geometry)
 ```
 
 
+## Csv with only info
+```{r}
+rest_final <- rest_shp %>% 
+  clean_names() %>% 
+  as_tibble() %>% 
+  select(name, island)
+
+colnames(rest_final)
+
+```
+
+
 
 ## Save as a data_object
 ```{r}
 
-dir.create(paste0(getwd(),"/7.clean_data"))
 
-write_csv(shp_1, here::here("7.clean_data/2016_and_2019_soil_wood_samples_loc.csv"))
+write_csv(rest_final, here::here("7.clean_data/palmyra_atoll_trasformation_plots_info.csv"))
 
 ```
 
